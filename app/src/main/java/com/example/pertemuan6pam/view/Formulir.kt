@@ -1,6 +1,10 @@
-HorizontalDivider(modifier = Modifier
-.padding(20.dp)
+OutlinedTextField(
+value = "",
+singleLine = true,
+modifier = Modifier
 .width(250.dp),
-thickness = 1.dp,
-color = Color.Red
+label = {Text(text = "Alamat")},
+onValueChange = {},
 )
+Spacer(modifier = Modifier.height(30.dp))
+
